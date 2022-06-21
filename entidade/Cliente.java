@@ -1,7 +1,7 @@
 package entidade;
 public class Cliente {
-    String Nome;
-    int CPF;
+    private String Nome;
+    private int CPF;
         
     public String getNome() {
         return Nome;

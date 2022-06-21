@@ -2,8 +2,8 @@ package entidade;
 
 public class Produto {
     
-    float Preco;
-    double Quantidade;
+    private float Preco;
+    private double Quantidade;
 
     public float getPreco() {
         return Preco;

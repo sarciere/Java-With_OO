@@ -3,8 +3,8 @@ package entidade;
 import util.enumGenero;
 
 public class Livro extends Produto{
-    enumGenero Genero;
-    String Nome;
+    private enumGenero Genero;
+    private String Nome;
 
     public enumGenero getGenero() {
         return Genero;
